@@ -11,13 +11,12 @@
 
 	uiso9_cn.exe：安装双系统时，制作启动盘的软件（https://cn.ultraiso.net/xiazai.html）
 
-	Win7_x86c_6.3.GHO：win7镜像文件（这个你自己来吧）
+	Win7_x86c_6.3.GHO：win7镜像文件（链接：https://pan.baidu.com/s/1Aoh-TNwgvDqKBQYeMZdH5w 密码： 密码：bmbk）
 
 	kinect驱动(openni、NITE、Sensor)：Kinect的驱动，注意在32位的Ubuntu14.04是不能用的（链接：https://pan.baidu.com/s/1znOatsnRhRFeqwQr2sHL0Q 密码：5o1q）
 二，安装说明
 	
 	（1）win7安装（DaBaiCai_STA_bd.exe + Win7_x86c_6.3.GHO + U盘）
-
 		【1】准备除了要安装win7的另外一台电脑，并安装DaBaiCai_STA_bd；
 		【2】将Win7_x86c_6.3.GHO复制到需要安装win7的电脑上，记住位置；
 		【3】在装有DaBaiCai_STA_bd的电脑上插上U盘（会格式化U盘，注意备份），打开DaBaiCai_STA_bd，软件会自动识别U盘，点击开始制作；
@@ -27,7 +26,6 @@
 		【7】安装完成；
 		
 	（2）Ubuntu14.04双系统安装说明（EasyBCD_2.2.exe + ubuntu-14.04.5-desktop-amd64.iso + uiso9_cn.exe + U盘）
-	
 		（安装Windows10,Ubuntu双系统14.04LTS记录：https://www.cnblogs.com/arcsinw/p/5303615.html）
 		（Ubuntu安装时怎样分区：https://www.cnblogs.com/zhchoutai/p/8721763.html）
 		（ubuntu系统安装时的分区方案：https://blog.csdn.net/young951023/article/details/79382854）
@@ -47,13 +45,11 @@
 		【9】如此，重启，便会出现win7和linux的选择界面。
 			
 	（3）双系统下卸载ubuntu
-	
 		（Windows、Ubuntu双系统正确卸载Ubuntu系统：https://blog.csdn.net/yeqiang19910412/article/details/79121581）
 		当linux的安装启动引导选择的不是/boot时，如果直接删除linux分区会导致win7也无法进入了；
 		所以一是要注意在安装的时候，安装启动引导选择/boot，二是根据博客，先修复再删除；
 	
 	（4）ROS
-	
 		（Ubuntu14.04安装ROS Indigo：https://blog.csdn.net/myarrow/article/details/53046625）
 		【1】安装
 			sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
@@ -70,7 +66,6 @@
 	（5）Turtlebot2软件包（http://wiki.ros.org/turtlebot/Tutorials/indigo/Turtlebot%20Installation）
 
 	（6）Kinect驱动安装：kinect驱动(openni、NITE、Sensor)文件夹有详细说明
-	
 		Kinect的ROS包：
 			【1】安装
 				sudo apt-get install  ros-indigo-freenect-*
@@ -83,7 +78,6 @@
 				rosrun image_view image_view image:=/camera/depth_registered/image_raw
 	
 	（7）在安装或者编译时会出现缺少依赖项的错误，以下是常见的（以后尽量补充）：
-		
 		【1】OpenGl （OpenGl env setup ubuntu14.04：https://github.com/cheyiliu/All-in-One/wiki/OpenGl-env-setup---ubuntu14.04）
 			sudo apt-get install build-essential
 			sudo apt-get install libgl1-mesa-dev
