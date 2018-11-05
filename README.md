@@ -15,6 +15,7 @@
 
 	kinect驱动(openni、NITE、Sensor)：Kinect的驱动，注意在32位的Ubuntu14.04是不能用的（链接：https://pan.baidu.com/s/1znOatsnRhRFeqwQr2sHL0Q 密码：5o1q）
 二，安装说明
+	
 	（1）win7安装（DaBaiCai_STA_bd.exe + Win7_x86c_6.3.GHO + U盘）
 
 		【1】准备除了要安装win7的另外一台电脑，并安装DaBaiCai_STA_bd；
