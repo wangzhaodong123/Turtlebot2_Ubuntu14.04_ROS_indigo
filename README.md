@@ -2,6 +2,7 @@
 实验室的机器人Turtlebot2的软件环境安装记录。
 
 一，清单（大白菜，easybcd，uiso可能需要更新）
+	
 	DaBaiCai_STA_bd.exe：大白菜系统安装工具，可用于win7的安装（http://www.dabaicaipe.cn/）
 
 	EasyBCD_2.2.exe：Easybcd，用于win7和linux引导向的建立（https://www.softpedia.com/get/System/OS-Enhancements/EasyBCD.shtml）
