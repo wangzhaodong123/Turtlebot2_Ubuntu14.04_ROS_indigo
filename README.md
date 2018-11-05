@@ -14,14 +14,15 @@
 
 	kinect驱动(openni、NITE、Sensor)：Kinect的驱动，注意在32位的Ubuntu14.04是不能用的
 # 二，安装说明
-（1）win7安装（DaBaiCai_STA_bd.exe + Win7_x86c_6.3.GHO + U盘）
-	【1】准备除了要安装win7的另外一台电脑，并安装DaBaiCai_STA_bd；
-	【2】将Win7_x86c_6.3.GHO复制到需要安装win7的电脑上，记住位置；
-	【3】在装有DaBaiCai_STA_bd的电脑上插上U盘（会格式化U盘，注意备份），打开DaBaiCai_STA_bd，软件会自动识别U盘，点击开始制作；
-	【4】将制作好的U盘插到需要安装win7的电脑上，开机，同时连续按F12，并选择从U盘启动；
-	【5】进入大白菜界面后，选择WIN8 PE标准版并进入；打开大白菜PE装机工具，映像文件路径选择【2】的镜像路径，分区选择C盘，开始制作；
-	【6】重启电脑，拔掉U盘，系统会自动安装驱动并等待重启；
-	【7】安装完成；
+	（1）win7安装（DaBaiCai_STA_bd.exe + Win7_x86c_6.3.GHO + U盘）
+
+		【1】准备除了要安装win7的另外一台电脑，并安装DaBaiCai_STA_bd；
+		【2】将Win7_x86c_6.3.GHO复制到需要安装win7的电脑上，记住位置；
+		【3】在装有DaBaiCai_STA_bd的电脑上插上U盘（会格式化U盘，注意备份），打开DaBaiCai_STA_bd，软件会自动识别U盘，点击开始制作；
+		【4】将制作好的U盘插到需要安装win7的电脑上，开机，同时连续按F12，并选择从U盘启动；
+		【5】进入大白菜界面后，选择WIN8 PE标准版并进入；打开大白菜PE装机工具，映像文件路径选择【2】的镜像路径，分区选择C盘，开始制作；
+		【6】重启电脑，拔掉U盘，系统会自动安装驱动并等待重启；
+		【7】安装完成；
 （2）Ubuntu14.04双系统安装说明（EasyBCD_2.2.exe + ubuntu-14.04.5-desktop-amd64.iso + uiso9_cn.exe + U盘）
 	（安装Windows10,Ubuntu双系统14.04LTS记录：https://www.cnblogs.com/arcsinw/p/5303615.html）
 	（Ubuntu安装时怎样分区：https://www.cnblogs.com/zhchoutai/p/8721763.html）
