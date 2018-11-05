@@ -2,16 +2,15 @@
 实验室的机器人Turtlebot2的软件环境安装记录。
 
 一，清单（大白菜，easybcd，uiso可能需要更新）
+	DaBaiCai_STA_bd.exe：大白菜系统安装工具，可用于win7的安装（http://www.dabaicaipe.cn/）
 
-	DaBaiCai_STA_bd.exe：大白菜系统安装工具，可用于win7的安装
+	EasyBCD_2.2.exe：Easybcd，用于win7和linux引导向的建立（https://www.softpedia.com/get/System/OS-Enhancements/EasyBCD.shtml）
 
-	EasyBCD_2.2.exe：Easybcd，用于win7和linux引导向的建立
+	ubuntu-14.04.5-desktop-amd64.iso：ubuntu14.04，64位系统（https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/）
 
-	ubuntu-14.04.5-desktop-amd64.iso：ubuntu14.04，64位系统
+	uiso9_cn.exe：安装双系统时，制作启动盘的软件（https://cn.ultraiso.net/xiazai.html）
 
-	uiso9_cn.exe：安装双系统时，制作启动盘的软件
-
-	Win7_x86c_6.3.GHO：win7镜像文件
+	Win7_x86c_6.3.GHO：win7镜像文件（这个你自己来吧）
 
 	kinect驱动(openni、NITE、Sensor)：Kinect的驱动，注意在32位的Ubuntu14.04是不能用的（链接：https://pan.baidu.com/s/1znOatsnRhRFeqwQr2sHL0Q 密码：5o1q）
 二，安装说明
